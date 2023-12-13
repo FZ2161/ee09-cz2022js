@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl2.css">
+    <title>Pomocnik CSS</title>
+</head>
+<body>
+    <div id="kontener">
+        <div id="d1">
+        
+            <div id="baner1" class="baner">
+        
+            <h1>Pomocnik CSS</h1>
+        
+            </div>
+        
+
+            <div id="baner2" class="baner">
+                <ul>
+                    <li>
+                        <a href="czcionki.html">czcionki</a>
+                    </li>
+                    <li>
+                        <a href="style.html">style</a>
+                    </li>
+                    <li>
+                        <a href="kolory.html" >kolory</a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/css/">pomoc</a>
+                    </li>
+                </ul>
+        </div>
+        </div>
+        <div id="glowny">
+            <h2>Podaj składową H koloru w kodzie HSL</h2>
+            <p>0 do 30 czerwienie, do 60 żółcie, do 150 zielenie, do 250 niebieskie, do 360 fiolwt i purpura</p>
+            <div id="img">
+                <img src="kolory.jpg">
+            </div>
+            <input type="number" max="360" id="inpL">
+            <button onclick="skrypt()">Generuj paletę</button>
+            <table >
+                <tr>
+                  <th colspan="4" id="th1">kolor główny</th>
+                </tr>
+                <tr>
+                  <td id="td2">kolor2</td>
+                  <td id="td3">kolor3</td>
+                  <td id="td4">kolor4</td>
+                  <td id="td5">kolor5</td>
+                </tr>
+
+            </table>
+        </div>
+        <div id="stopka" >
+            <p>Autor: numer zdającego</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
